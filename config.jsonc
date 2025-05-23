@@ -1,0 +1,185 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",        // Logo type: auto, builtin, small, file, etc.
+    "source": "/YOUR/IMAGE/LOCATION",      // Built-in logo name or file path
+    "width": 60,           // Width in characters (for image logos)
+    "height": 40,          // Height in characters (for image logos)
+    "padding": {
+        "top": 2,          // Top padding
+        "left": 2,         // Left padding
+        "right": 7         // Right padding
+    },
+    "color": {             // Override logo colors
+        "1": "blue",
+        "2": "green"
+    }
+  },
+  "display": {
+      "separator": "",
+        "key":  {
+            "width": 15
+                }
+             },
+  
+  "modules": [
+    
+    "break",
+    "break",
+    "break",
+    "break",
+    "break",
+    "break",
+
+
+      {
+        "type": "separator",
+        "outputColor": "white"
+      },
+
+     {
+        "type": "title",
+        "key": "username",
+        "format": "{user-name}",
+        "keyColor": "magenta"
+      },
+
+    "separator",
+    "break",
+    "separator",
+    {
+      "type": "custom",
+      "key": "soft shit",
+      "keyColor": "blue"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "os",
+      "keyColor": "magenta",
+    },
+
+    {
+      "type": "kernel",
+      "key": "kernel",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "packages",
+      "key": "packages",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "shell",
+      "key": "shell",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "de",
+      "key": "de",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "wm",
+      "key": "wm",
+      "keyColor": "magenta"
+    },
+
+    "separator",
+
+    "break",
+
+    "separator",
+
+    {
+      "type": "custom",
+      "key": "fancy shit",
+      "keyColor": "blue"
+    },
+
+    "break",
+
+    {
+      "type": "wmtheme",
+      "key": "wmtheme",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "theme",
+      "key": "theme",
+      "keyColor": "magenta",
+      "format": "{1}"
+    },
+
+    {
+      "type": "icons",
+      "key": "icons",
+      "keyColor": "magenta",
+      "format": "{1}"
+    },
+
+    {
+      "type": "cursor",
+      "key": "clicky thing",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "terminal",
+      "key": "scary thing",
+      "keyColor": "magenta"
+    },
+
+    "separator",
+
+    "break",
+
+    "separator",
+
+    {
+      "type": "custom",
+      "key": "hard shit",
+      "keyColor": "blue"
+    },
+
+    "break",
+
+    {
+      "type": "break"
+    },
+    
+    {
+      "type": "host",
+      "key": "motherboard",
+      "format": "{2}",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "cpu",
+      "key": "cpu",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "gpu",
+      "key": "gpu",
+      "format": "{1} {2}",
+      "keyColor": "magenta"
+    },
+
+    {
+      "type": "memory",
+      "key": "ram",
+      "keyColor": "magenta",
+      "format": "{2}"
+    },
+
+    "separator"
+  ]
+}
